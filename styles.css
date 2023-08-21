@@ -1,0 +1,37 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.header {
+  padding: 6px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+ display:flex;
+ flex: auto;
+ left: 0px;
+ right: 0px;
+ top: 0px;
+  }
+
+  .card {
+    display: flexbox;
+    place-items: center;
+    padding: 2rem;
+    padding-bottom: 4rem;
+    row-gap: 2rem;
+    border-radius: 0.5em;
+    border:1px;
+    box-shadow:1px;
+    box-sizing: content-box;
+}
+
+.footer {
+  display: flex;
+    flex-direction: row;
+    background-color: green;
+    
+  
+}
