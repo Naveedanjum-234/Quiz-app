@@ -3,57 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz App</title>
+
     <link rel="stylesheet" href="styles.css">
+    <title>Quiz App</title>
 </head>
 <body>
     <header class="header">
-        <h1 class="header_heading">Quiz App</h1>
-      </header>
-      <MAin>
+        <h1 class="app-heading">Quiz App</h1>
+    </header>
 
-       <Section class="card">
-        <h2 class="card_heading"> Question 1</h2>
-        <button class="card_bookmark"> 
-            <img src="bookmark.png" alt="frist-card">
-        </button>
-        <p class="card_text">
-            What are tags and attributes in HTML?
-        </p>
-        <button> Show Answer </button>
-       </Section>
+    <main class="quiz-container">
+        <div class="quiz-card">
+            <button class="bookmark-btn">Bookmark</button>
+            <h2 class="quiz-question">What are different types of lists in HTML?</h2>
+            <button class="show-answer-btn">Show Answer</button>
+            <p class="answer hidden">Answer: " type of lists unordered and ordered list"</p>
+        </div>
 
-        <section class="card">
-            <h2 class="card_heading"> Question 2</h2>
-            <button class="card_bookmark"> <img src="bookmark.png" alt="second card"></button>
-             <p class="card_text">  What are the major versions of CSS?   </p>
-             <button> Show Answer </button>
-        </section>
+        <div class="quiz-card">
+            <button class="bookmark-btn">Bookmark</button>
+            <h2 class="quiz-question">What are the major versions of CSS?</h2>
+            <button class="show-answer-btn">Show Answer</button>
+            <p class="answer hidden">Answer: "css 1,2,2.1,3,4"</p>
+        </div>
+    </main>
 
-        <section class="card">
-            <h2 class="card_heading"> Question 3</h2>
-            <button class="card_bookmark">  <img src="bookmark.png" alt="third card"></button>
-             <p class="card_text"> What is the full form of CSS?  </p>
-             <button> Show Answer</button>
-        </section>
-      </MAin>
-        <footer class="footer">
-            <nav class="navigation">
-                <ul>
-                    <li class="home"> Home</li> 
-                    <li class="bookmark">Bookmark</li>
-                    <li class="profile"> profile</li>
+    <footer class="footer">
+        <div class="footer-icons">
+            <span class="home-icon">Home</span>
+            <span class="bookmark-icon">Bookmark</span>
+            <span class="user-icon">User</span>
+        </div>
+    </footer>
 
-                </ul>
-            </nav>
-
-        </footer>
-        
-
-
-
-
-
-
+    <script src="script.js"></script>
 </body>
 </html>

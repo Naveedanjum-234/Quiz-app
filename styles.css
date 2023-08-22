@@ -3,35 +3,77 @@
 *::after {
   box-sizing: border-box;
 }
-
-.header {
-  padding: 6px;
-  text-align: center;
-  background: #1abc9c;
-  color: white;
- display:flex;
- flex: auto;
- left: 0px;
- right: 0px;
- top: 0px;
-  }
-
-  .card {
-    display: flexbox;
-    place-items: center;
-    padding: 2rem;
-    padding-bottom: 4rem;
-    row-gap: 2rem;
-    border-radius: 0.5em;
-    border:1px;
-    box-shadow:1px;
-    box-sizing: content-box;
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
 }
 
-.footer {
+/* Header styling */
+.header {
+  background-color:green;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.app-heading {
+  margin: 0;
+}
+
+/* Main content styling */
+.quiz-container {
+  padding: 100px 20px 60px;
   display: flex;
-    flex-direction: row;
-    background-color: green;
-    
-  
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.quiz-card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  position: relative;
+}
+
+.show-answer-btn {
+  margin: 10px;
+}
+
+.answer {
+  display: none;
+}
+
+.bookmark-btn {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+/* Footer styling */
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 20px;
 }
