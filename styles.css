@@ -18,6 +18,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
+  z-index: 1000;
 }
 
 .app-heading {
@@ -89,11 +90,14 @@ box-shadow: 4px cornflowerblue (0.1);
   display: flex;
   justify-content: space-around;
   align-items: center;
-  font-size: 20px;
-  position: fixed;
+  font-size: 25px;
+  position:fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 1000;
 }
 .footer-icons:hover {
   transform: translateY(-5px);
-  box-shadow:4px cornflowerblue (0.1);
-
+  box-shadow:10px cornflowerblue (0.1);
+  
   }
