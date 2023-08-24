@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
     <title>Quiz App</title>
 </head>
 <body>
@@ -14,27 +16,31 @@
 
     <main class="quiz-container">
         <div class="quiz-card">
-            <button class="bookmark-btn">Bookmark</button>
-            <h2 class="quiz-question">What are different types of lists in HTML?</h2>
+            <button class="bookmark-btn"><i class="fas fa-bookmark"></i></button>
+            <h2 class="quiz-question">Question 1:</h2>
+            <p>What is the capital of France?</p>
             <button class="show-answer-btn">Show Answer</button>
-            <p class="answer hidden">Answer: " type of lists unordered and ordered list"</p>
+            <p class="answer hidden">Answer: Paris</p>
         </div>
-
+    
         <div class="quiz-card">
-            <button class="bookmark-btn">Bookmark</button>
-            <h2 class="quiz-question">What are the major versions of CSS?</h2>
+            <button class="bookmark-btn"><i class="fas fa-bookmark"></i></button>
+            <h2 class="quiz-question">Question 2: </h2>
+            <p>What is capital of Germany</p>
             <button class="show-answer-btn">Show Answer</button>
-            <p class="answer hidden">Answer: "css 1,2,2.1,3,4"</p>
+            <p class="answer hidden">Answer:Berlin</p>
         </div>
     </main>
+    
 
-    <footer class="footer">
-        <div class="footer-icons">
-            <span class="home-icon">Home</span>
-            <span class="bookmark-icon">Bookmark</span>
-            <span class="user-icon">User</span>
-        </div>
-    </footer>
+<footer class="footer">
+    <div class="footer-icons">
+        <span class="home-icon"><i class="fas fa-home"></i> Home</span>
+        <span class="bookmark-icon"><i class="fas fa-bookmark"></i> Bookmark</span>
+        <span class="user-icon"><i class="fas fa-user"></i> User</span>
+    </div>
+</footer>
+
 
     <script src="script.js"></script>
 </body>
