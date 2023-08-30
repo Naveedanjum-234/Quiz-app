@@ -55,13 +55,14 @@ box-shadow: 4px cornflowerblue (0.1);
   margin: 15px;
 }
 
-.answer {
+.hidden {
   display: none;
 }
 
 .quiz-card {
   position: relative;
 }
+
 
 .bookmark-btn {
   position: absolute;
@@ -73,12 +74,17 @@ box-shadow: 4px cornflowerblue (0.1);
   outline: none;
 }
 
-/* Footer styling */
+
+.bookmarked {
+  color: red; 
+ }   
+
+
 .footer {
-  background-color: #333333;
+  background-color: black;
   color: white;
   text-align: center;
-  padding: 10px 0;
+  padding: 15px 0;
   position: fixed;
   bottom: 0;
   left: 0;
